@@ -8,3 +8,9 @@ Before the main R script can be run, you need to get the data using the followin
 - unzip the file in the root of the repository. This will create a folder named `UCI HAR Dataset`.
 
 after those preparatory steps, the `run_analysis.R` file should run without issues.
+
+The data is loaded into a data frame named `wearableComputing`.
+
+## Submission summary data
+
+The `prepare_summary.R` script generates the table for the submission and creates a text file `submission.txt` in the repository root. It can only be run, after the `run_analysis.R` has completed.
